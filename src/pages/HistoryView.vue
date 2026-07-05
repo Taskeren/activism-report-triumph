@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { computed, onMounted, onUnmounted, ref } from 'vue'
+import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 
 import type { HistoriesResponse2 } from '@/types/response.ts'
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible'
 import { useI18n } from 'vue-i18n'
-import { useTitle } from '@vueuse/core'
+import { useFetch, useTitle } from '@vueuse/core'
 import { ArrowUp } from '@lucide/vue'
 
 type UserGameData = HistoriesResponse2
@@ -32,31 +32,15 @@ onUnmounted(() => {
   window.removeEventListener('scroll', checkScrollUpVisibility)
 })
 
-const loading = ref(false)
-const gameData = ref<UserGameData>()
-
-const refreshData = async () => {
-  try {
-    loading.value = true
-    const { type, id } = route.params
-    console.log(`Loading data for ${id} @ ${type}`)
-    const call = await fetch(
-      `https://activisme.nitu2003.workers.dev/api/get-history2/${type}/${id}`,
-    )
-    const { data } = (await call.json()) as { data: UserGameData }
-    gameData.value = data
-    title.value = displayName.value ?? t('navbar.title')
-    console.log('Game data', data)
-  } catch (error: unknown) {
-    console.error(error)
-  } finally {
-    loading.value = false
-  }
-}
-
-onMounted(() => {
-  refreshData()
-})
+const { type, id } = route.params
+const {
+  data: dataW,
+  isFetching: loading,
+  execute: reloadData,
+} = useFetch(`https://activisme.nitu2003.workers.dev/api/get-history2/${type}/${id}`).json<{
+  data: UserGameData
+}>()
+const gameData = computed(() => dataW.value?.data)
 
 const BUNGIE_URL = 'https://www.bungie.com'
 
@@ -77,6 +61,10 @@ const displayName = computed(() => {
   return d
     ? `${d.bungieGlobalDisplayName}#${d.bungieGlobalDisplayNameCode?.toString()?.padStart(4, '0')}`
     : undefined
+})
+
+watch(displayName, (name) => {
+  title.value = name ?? t('navbar.title')
 })
 
 const { t } = useI18n()
@@ -113,7 +101,12 @@ const periodText = (p: string) => {
 <template>
   <header class="bg-cover flex flex-wrap items-center gap-3" :style="emblemStyle">
     <div class="max-w-lg flex flex-wrap mx-auto my-4 gap-x-2">
-      <span class="inline-block bg-cover size-12" :style="emblemOverlay"></span>
+      <span
+        class="inline-block bg-cover size-12"
+        :class="{ 'animate-spin': loading }"
+        :style="emblemOverlay"
+        @click="reloadData()"
+      ></span>
       <h2 class="text-3xl font-bold my-auto text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
         {{ displayName }}
       </h2>
