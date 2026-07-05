@@ -115,7 +115,7 @@ const periodText = (p: string) => {
 
   <main
     v-if="gameData?.histories && gameData.histories.length > 0"
-    class="flex-1 gap-4 px-6 max-w-2xl mx-auto"
+    class="flex-1 gap-4 px-6 w-sm md:w-2xl mx-auto"
   >
     <Collapsible
       v-for="(group, groupIndex) in gameData?.histories"
@@ -125,7 +125,7 @@ const periodText = (p: string) => {
       <CollapsibleTrigger asChild>
         <div class="flex flex-col md:flex-row items-center p-4 cursor-pointer">
           <h3 class="flex-1 text-2xl font-bold">{{ activityName(group.hash) }}</h3>
-          <div class="w-[20%] flex flex-row flex-wrap md:grid md:grid-cols-2 gap-x-4 gap-y-2">
+          <div class="flex flex-wrap md:w-[20%] md:grid md:grid-cols-2 gap-x-4 gap-y-2">
             <template
               v-for="([completeType, completeData], completeIndex) in Object.entries(
                 group.completion,
@@ -158,7 +158,7 @@ const periodText = (p: string) => {
         <div
           v-for="(activity, activityIndex) in group.activities"
           :key="activityIndex"
-          class="grid grid-cols-[10%_1fr_40%_20%] items-center p-4"
+          class="grid grid-cols-[20%_1fr_30%_20%] items-center p-4"
         >
           <span class="text-center">{{ periodText(activity.period) }}</span>
           <component
