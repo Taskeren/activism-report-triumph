@@ -1,0 +1,3 @@
+[submodule "d2-localization-generator"]
+	path = d2-localization-generator
+	url = git@github.com:Taskeren/d2-localization-generator.git

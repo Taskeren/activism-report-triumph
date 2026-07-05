@@ -1,0 +1,2429 @@
+{
+  "data": {
+    "userInfo": {
+      "crossSaveOverride": 3,
+      "applicableMembershipTypes": [1, 6, 3],
+      "isPublic": true,
+      "membershipType": 3,
+      "membershipId": "4611686018513312174",
+      "displayName": "我",
+      "bungieGlobalDisplayName": "我",
+      "bungieGlobalDisplayNameCode": 4417
+    },
+    "emblemDefinition": {
+      "displayProperties": {
+        "description": "",
+        "name": "Future in Shadow",
+        "icon": "/common/destiny2_content/icons/4be0d9062b1114f73ced6a051ce26c8a.jpg",
+        "iconHash": 2962058746,
+        "hasIcon": true
+      },
+      "tooltipNotifications": [],
+      "collectibleHash": 4137754752,
+      "secondaryIcon": "/common/destiny2_content/icons/dd9af60ef15319ee986a1f6cc029fe71.jpg",
+      "secondaryOverlay": "/common/destiny2_content/icons/4816028ef485f05c41d23059f1744d73.png",
+      "secondarySpecial": "/common/destiny2_content/icons/37e47d19933f04f950a8e0e062510e0e.jpg",
+      "backgroundColor": {
+        "red": 1,
+        "green": 3,
+        "blue": 6,
+        "alpha": 255
+      },
+      "isFeaturedItem": false,
+      "isHolofoil": false,
+      "isAdept": false,
+      "itemTypeDisplayName": "Emblem",
+      "flavorText": "",
+      "uiItemDisplayStyle": "",
+      "itemTypeAndTierDisplayName": "Legendary Emblem",
+      "displaySource": "",
+      "tooltipStyle": "record",
+      "action": {
+        "verbName": "Store",
+        "verbDescription": "",
+        "isPositive": false,
+        "requiredCooldownSeconds": 0,
+        "requiredItems": [],
+        "progressionRewards": [],
+        "rewardSheetHash": 0,
+        "rewardItemHash": 0,
+        "rewardSiteHash": 0,
+        "requiredCooldownHash": 0,
+        "deleteOnAction": true,
+        "consumeEntireStack": false,
+        "useOnAcquire": false
+      },
+      "inventory": {
+        "stackUniqueLabel": "emblems.crm.emblem2",
+        "maxStackSize": 1,
+        "bucketTypeHash": 4274335291,
+        "recoveryBucketTypeHash": 215593132,
+        "tierTypeHash": 4008398120,
+        "isInstanceItem": true,
+        "nonTransferrableOriginal": false,
+        "tierTypeName": "Legendary",
+        "tierType": 5,
+        "expirationTooltip": "",
+        "expiredInActivityMessage": "",
+        "expiredInOrbitMessage": "",
+        "suppressExpirationWhenObjectivesComplete": true
+      },
+      "stats": {
+        "disablePrimaryStatDisplay": false,
+        "stats": {},
+        "hasDisplayableStats": false,
+        "primaryBaseStatHash": 0
+      },
+      "equippingBlock": {
+        "uniqueLabelHash": 0,
+        "equipmentSlotTypeHash": 4274335291,
+        "attributes": 0,
+        "equippingSoundHash": 0,
+        "hornSoundHash": 0,
+        "ammoType": 0,
+        "displayStrings": ["Ownership to Equip"]
+      },
+      "preview": {
+        "screenStyle": "screen_style_emblem",
+        "previewVendorHash": 0,
+        "previewActionString": ""
+      },
+      "metrics": {
+        "availableMetricCategoryNodeHashes": [
+          2875839731, 3844527950, 565440981, 3722177789, 4193411410, 2755216039, 926976517,
+          3707324621
+        ]
+      },
+      "acquireRewardSiteHash": 0,
+      "acquireUnlockHash": 0,
+      "investmentStats": [],
+      "perks": [],
+      "allowActions": true,
+      "doesPostmasterPullHaveSideEffects": false,
+      "nonTransferrable": true,
+      "itemCategoryHashes": [19, 52],
+      "specialItemType": 0,
+      "itemType": 14,
+      "itemSubType": 0,
+      "classType": 3,
+      "breakerType": 0,
+      "equippable": true,
+      "defaultDamageType": 0,
+      "isWrapper": false,
+      "traitIds": ["item.emblem"],
+      "traitHashes": [2455696884],
+      "hash": 2962058746,
+      "index": 231,
+      "redacted": false,
+      "blacklisted": false
+    },
+    "characters": {
+      "2305843009771154904": {
+        "membershipId": "4611686018513312174",
+        "membershipType": 3,
+        "characterId": "2305843009771154904",
+        "dateLastPlayed": "2026-07-05T00:05:24Z",
+        "minutesPlayedThisSession": "0",
+        "minutesPlayedTotal": "19646",
+        "light": 505,
+        "stats": {
+          "144602215": 135,
+          "392767087": 0,
+          "1735777505": 40,
+          "1935470627": 505,
+          "1943323491": 35,
+          "2996146975": 200,
+          "4244567218": 35
+        },
+        "raceHash": 3887404748,
+        "genderHash": 2204441813,
+        "classHash": 2271682572,
+        "raceType": 0,
+        "classType": 2,
+        "genderType": 1,
+        "emblemPath": "/common/destiny2_content/icons/4be0d9062b1114f73ced6a051ce26c8a.jpg",
+        "emblemBackgroundPath": "/common/destiny2_content/icons/dd9af60ef15319ee986a1f6cc029fe71.jpg",
+        "emblemHash": 2962058746,
+        "emblemColor": {
+          "red": 1,
+          "green": 3,
+          "blue": 6,
+          "alpha": 255
+        },
+        "levelProgression": {
+          "progressionHash": 1716568313,
+          "dailyProgress": 0,
+          "dailyLimit": 0,
+          "weeklyProgress": 0,
+          "weeklyLimit": 0,
+          "currentProgress": 0,
+          "level": 50,
+          "levelCap": 50,
+          "stepIndex": 50,
+          "progressToNextLevel": 0,
+          "nextLevelAt": 0
+        },
+        "baseCharacterLevel": 50,
+        "percentToNextLevel": 0,
+        "titleRecordHash": 3800818323
+      },
+      "2305843010123044441": {
+        "membershipId": "4611686018513312174",
+        "membershipType": 3,
+        "characterId": "2305843010123044441",
+        "dateLastPlayed": "2026-07-04T09:19:02Z",
+        "minutesPlayedThisSession": "21",
+        "minutesPlayedTotal": "15180",
+        "light": 548,
+        "stats": {
+          "144602215": 110,
+          "392767087": 0,
+          "1735777505": 100,
+          "1935470627": 548,
+          "1943323491": 90,
+          "2996146975": 100,
+          "4244567218": 125
+        },
+        "raceHash": 3887404748,
+        "genderHash": 2204441813,
+        "classHash": 3655393761,
+        "raceType": 0,
+        "classType": 0,
+        "genderType": 1,
+        "emblemPath": "/common/destiny2_content/icons/3d759ffd6020a72c7e1de05f89cefc35.jpg",
+        "emblemBackgroundPath": "/common/destiny2_content/icons/f1a17718bb58ef0309d525309cc722a9.jpg",
+        "emblemHash": 2790542790,
+        "emblemColor": {
+          "red": 2,
+          "green": 19,
+          "blue": 2,
+          "alpha": 255
+        },
+        "levelProgression": {
+          "progressionHash": 1716568313,
+          "dailyProgress": 0,
+          "dailyLimit": 0,
+          "weeklyProgress": 0,
+          "weeklyLimit": 0,
+          "currentProgress": 0,
+          "level": 50,
+          "levelCap": 50,
+          "stepIndex": 50,
+          "progressToNextLevel": 0,
+          "nextLevelAt": 0
+        },
+        "baseCharacterLevel": 50,
+        "percentToNextLevel": 0,
+        "titleRecordHash": 3137935313
+      },
+      "2305843010556554124": {
+        "membershipId": "4611686018513312174",
+        "membershipType": 3,
+        "characterId": "2305843010556554124",
+        "dateLastPlayed": "2026-07-05T00:47:58Z",
+        "minutesPlayedThisSession": "41",
+        "minutesPlayedTotal": "39910",
+        "light": 546,
+        "stats": {
+          "144602215": 100,
+          "392767087": 0,
+          "1735777505": 100,
+          "1935470627": 546,
+          "1943323491": 100,
+          "2996146975": 100,
+          "4244567218": 110
+        },
+        "raceHash": 3887404748,
+        "genderHash": 2204441813,
+        "classHash": 671679327,
+        "raceType": 0,
+        "classType": 1,
+        "genderType": 1,
+        "emblemPath": "/common/destiny2_content/icons/a8adac4c21c69b71e84458c3657aa0a9.jpg",
+        "emblemBackgroundPath": "/common/destiny2_content/icons/8da28f98a37e45634070e8666484bbf9.jpg",
+        "emblemHash": 723818648,
+        "emblemColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 255
+        },
+        "levelProgression": {
+          "progressionHash": 1716568313,
+          "dailyProgress": 0,
+          "dailyLimit": 0,
+          "weeklyProgress": 0,
+          "weeklyLimit": 0,
+          "currentProgress": 0,
+          "level": 50,
+          "levelCap": 50,
+          "stepIndex": 50,
+          "progressToNextLevel": 0,
+          "nextLevelAt": 0
+        },
+        "baseCharacterLevel": 50,
+        "percentToNextLevel": 0
+      }
+    },
+    "histories": [
+      {
+        "hash": 1952657885,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 1952657885,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 3830679567,
+        "highlights": [],
+        "completion": {
+          "incomplete": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 3830679567,
+            "highlights": [],
+            "completionType": "incomplete"
+          }
+        ]
+      },
+      {
+        "hash": 1505832963,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 1505832963,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 47604735,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 47604735,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 2004855007,
+        "highlights": [],
+        "completion": {
+          "incomplete": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 2004855007,
+            "highlights": [],
+            "completionType": "incomplete",
+            "targetUrl": "https://dungeon.report/pgcr/17013843878"
+          }
+        ]
+      },
+      {
+        "hash": 3830679567,
+        "highlights": [],
+        "completion": {
+          "incomplete": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 3830679567,
+            "highlights": [],
+            "completionType": "incomplete"
+          }
+        ]
+      },
+      {
+        "hash": 2727361621,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          },
+          "incomplete": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 2727361621,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/17013568933"
+          },
+          {
+            "hash": 2727361621,
+            "highlights": ["flawless"],
+            "completionType": "incomplete",
+            "targetUrl": "https://dungeon.report/pgcr/17013402961"
+          }
+        ]
+      },
+      {
+        "hash": 2004855007,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 2004855007,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/17013394168"
+          }
+        ]
+      },
+      {
+        "hash": 1505832963,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 1505832963,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 2167608078,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 2167608078,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 2823159265,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 2823159265,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/17011234530"
+          }
+        ]
+      },
+      {
+        "hash": 1768099736,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 1768099736,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 2032534090,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 2032534090,
+            "highlights": ["flawless"],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/17011102190"
+          }
+        ]
+      },
+      {
+        "hash": 4192328901,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 58124401,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 4008836256,
+        "highlights": [],
+        "completion": {
+          "incomplete": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 4008836256,
+            "highlights": [],
+            "completionType": "incomplete"
+          }
+        ]
+      },
+      {
+        "hash": 4078656646,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 4078656646,
+            "highlights": ["flawless"],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/17011041612"
+          }
+        ]
+      },
+      {
+        "hash": 4269987985,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 52,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 4269987985,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 2004855007,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 2004855007,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/17008845508"
+          }
+        ]
+      },
+      {
+        "hash": 4129522203,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 4129522203,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 4078656646,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 4078656646,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/17005278054"
+          }
+        ]
+      },
+      {
+        "hash": 962366573,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 962366573,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 4078656646,
+        "highlights": [],
+        "completion": {
+          "incomplete": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 4078656646,
+            "highlights": [],
+            "completionType": "incomplete",
+            "targetUrl": "https://dungeon.report/pgcr/17004880812"
+          }
+        ]
+      },
+      {
+        "hash": 2381413764,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 2381413764,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/17004868772"
+          }
+        ]
+      },
+      {
+        "hash": 1952657885,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 1952657885,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 342590048,
+        "highlights": [],
+        "completion": {
+          "defeat": {
+            "count": 5,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 3528554193,
+            "highlights": [],
+            "completionType": "defeat",
+            "targetUrl": "https://crucible.report/pgcr/17004427435"
+          },
+          {
+            "hash": 3683857964,
+            "highlights": [],
+            "completionType": "defeat",
+            "targetUrl": "https://crucible.report/pgcr/17004410079"
+          },
+          {
+            "hash": 2227496071,
+            "highlights": [
+              ["kd", "3.00"],
+              ["kda", "3.50"]
+            ],
+            "completionType": "defeat",
+            "targetUrl": "https://crucible.report/pgcr/17004386875"
+          },
+          {
+            "hash": 3683857964,
+            "highlights": [],
+            "completionType": "defeat",
+            "targetUrl": "https://crucible.report/pgcr/17004366699"
+          },
+          {
+            "hash": 94140435,
+            "highlights": [],
+            "completionType": "defeat",
+            "targetUrl": "https://crucible.report/pgcr/17004341393"
+          }
+        ]
+      },
+      {
+        "hash": 3890808539,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 3890808539,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 2870733370,
+        "highlights": [],
+        "completion": {
+          "victory": {
+            "count": 1,
+            "reasons": {}
+          },
+          "defeat": {
+            "count": 3,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 3791599869,
+            "highlights": [
+              ["kills", "x24"],
+              ["kd", "3.43"],
+              ["kda", "4.07"]
+            ],
+            "completionType": "victory",
+            "targetUrl": "https://crucible.report/pgcr/17003562977"
+          },
+          {
+            "hash": 3259269858,
+            "highlights": [],
+            "completionType": "defeat",
+            "targetUrl": "https://crucible.report/pgcr/17003534725"
+          },
+          {
+            "hash": 132163276,
+            "highlights": [],
+            "completionType": "defeat",
+            "targetUrl": "https://crucible.report/pgcr/17003506844"
+          },
+          {
+            "hash": 604276217,
+            "highlights": [],
+            "completionType": "defeat",
+            "targetUrl": "https://crucible.report/pgcr/17003477770"
+          }
+        ]
+      },
+      {
+        "hash": 4078656646,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 6,
+            "reasons": {}
+          },
+          "incomplete": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 4078656646,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/17003406778"
+          },
+          {
+            "hash": 4078656646,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/17003368619"
+          },
+          {
+            "hash": 4078656646,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/17003329602"
+          },
+          {
+            "hash": 4078656646,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/17003284733"
+          },
+          {
+            "hash": 4078656646,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/17003247964"
+          },
+          {
+            "hash": 4078656646,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/17003216251"
+          },
+          {
+            "hash": 4078656646,
+            "highlights": [],
+            "completionType": "incomplete",
+            "targetUrl": "https://dungeon.report/pgcr/17003170850"
+          }
+        ]
+      },
+      {
+        "hash": 2870733370,
+        "highlights": [],
+        "completion": {
+          "defeat": {
+            "count": 2,
+            "reasons": {}
+          },
+          "victory": {
+            "count": 2,
+            "reasons": {
+              "timer_finished": 1,
+              "mercy": 1
+            }
+          }
+        },
+        "activities": [
+          {
+            "hash": 719373386,
+            "highlights": [
+              ["kills", "x24"],
+              ["kd", "1.33"],
+              ["kda", "1.56"]
+            ],
+            "completionType": "defeat",
+            "targetUrl": "https://crucible.report/pgcr/17003150939"
+          },
+          {
+            "hash": 731879643,
+            "highlights": [
+              ["kills", "x19"],
+              ["kd", "1.12"]
+            ],
+            "completionType": "defeat",
+            "targetUrl": "https://crucible.report/pgcr/17003126572"
+          },
+          {
+            "hash": 4242091248,
+            "highlights": [
+              ["kills", "x18"],
+              ["kd", "1.29"],
+              ["kda", "1.57"]
+            ],
+            "completionType": "victory",
+            "completionReason": "timer_finished",
+            "targetUrl": "https://crucible.report/pgcr/17003101605"
+          },
+          {
+            "hash": 945243226,
+            "highlights": [
+              ["kills", "x11"],
+              ["kd", "1.38"]
+            ],
+            "completionType": "victory",
+            "completionReason": "mercy",
+            "targetUrl": "https://crucible.report/pgcr/17003072538"
+          }
+        ]
+      },
+      {
+        "hash": 3868641098,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 3868641098,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 3022541210,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 3022541210,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/17001682106"
+          }
+        ]
+      },
+      {
+        "hash": 3881495763,
+        "highlights": [],
+        "completion": {
+          "incomplete": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 3881495763,
+            "highlights": ["flawless"],
+            "completionType": "incomplete",
+            "targetUrl": "https://raid.report/pgcr/17001630958"
+          }
+        ]
+      },
+      {
+        "hash": 1152906386,
+        "highlights": [],
+        "completion": {
+          "incomplete": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 1152906386,
+            "highlights": [],
+            "completionType": "incomplete"
+          }
+        ]
+      },
+      {
+        "hash": 1462428868,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          },
+          "incomplete": {
+            "count": 2,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 1462428868,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 1462428868,
+            "highlights": [],
+            "completionType": "incomplete"
+          },
+          {
+            "hash": 1462428868,
+            "highlights": [["kills", "x118"]],
+            "completionType": "incomplete"
+          }
+        ]
+      },
+      {
+        "hash": 38511561,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 38511561,
+            "highlights": [["kills", "x168"]],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 1578888348,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 1578888348,
+            "highlights": [["kills", "x182"]],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 1512617309,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 1512617309,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 935938264,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 935938264,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 1749077519,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          },
+          "incomplete": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 1749077519,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 1749077519,
+            "highlights": [],
+            "completionType": "incomplete"
+          }
+        ]
+      },
+      {
+        "hash": 4269987990,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 4269987990,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 2787247596,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 2787247596,
+            "highlights": [["kills", "x202"]],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 759827239,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 759827239,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 1544807701,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 1544807701,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 392725406,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 392725406,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 376842534,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 376842534,
+            "highlights": [["kills", "x168"]],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 3890808539,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 3890808539,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 300092127,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 300092127,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16999100611"
+          }
+        ]
+      },
+      {
+        "hash": 2870733370,
+        "highlights": [],
+        "completion": {
+          "victory": {
+            "count": 2,
+            "reasons": {
+              "mercy": 1
+            }
+          },
+          "defeat": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 719373386,
+            "highlights": [["kd", "1.14"]],
+            "completionType": "victory",
+            "completionReason": "mercy",
+            "targetUrl": "https://crucible.report/pgcr/16998992271"
+          },
+          {
+            "hash": 1486201898,
+            "highlights": [],
+            "completionType": "victory",
+            "targetUrl": "https://crucible.report/pgcr/16998965838"
+          },
+          {
+            "hash": 945243226,
+            "highlights": [["kills", "x13"]],
+            "completionType": "defeat",
+            "targetUrl": "https://crucible.report/pgcr/16998946034"
+          }
+        ]
+      },
+      {
+        "hash": 1598363326,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 1598363326,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 4078656646,
+        "highlights": [],
+        "completion": {
+          "incomplete": {
+            "count": 2,
+            "reasons": {}
+          },
+          "completed": {
+            "count": 3,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 4078656646,
+            "highlights": [],
+            "completionType": "incomplete",
+            "targetUrl": "https://dungeon.report/pgcr/16997207294"
+          },
+          {
+            "hash": 4078656646,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16997070500"
+          },
+          {
+            "hash": 4078656646,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16997020524"
+          },
+          {
+            "hash": 4078656646,
+            "highlights": [],
+            "completionType": "incomplete",
+            "targetUrl": "https://dungeon.report/pgcr/16996963184"
+          },
+          {
+            "hash": 4078656646,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16996963184"
+          }
+        ]
+      },
+      {
+        "hash": 274733542,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 274733542,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 1563097554,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 1563097554,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 3890808539,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 2,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 3890808539,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 3890808539,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 2004855007,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 2004855007,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16996496883"
+          }
+        ]
+      },
+      {
+        "hash": 4078656646,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 4078656646,
+            "highlights": ["flawless"],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16996390599"
+          }
+        ]
+      },
+      {
+        "hash": 451570814,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 2318060333,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 3830679567,
+        "highlights": [],
+        "completion": {
+          "incomplete": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 3830679567,
+            "highlights": [],
+            "completionType": "incomplete"
+          }
+        ]
+      },
+      {
+        "hash": 1044919065,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 1044919065,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/16996141155"
+          }
+        ]
+      },
+      {
+        "hash": 1541433876,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 1541433876,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/16996050179"
+          }
+        ]
+      },
+      {
+        "hash": 3022541210,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 3022541210,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/16992714372"
+          }
+        ]
+      },
+      {
+        "hash": 747671496,
+        "highlights": [],
+        "completion": {
+          "incomplete": {
+            "count": 7,
+            "reasons": {}
+          },
+          "completed": {
+            "count": 7,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "incomplete",
+            "targetUrl": "https://raid.report/pgcr/16992618499"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/16992618499"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "incomplete",
+            "targetUrl": "https://raid.report/pgcr/16992609806"
+          },
+          {
+            "hash": 747671496,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/16992609806"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "incomplete",
+            "targetUrl": "https://raid.report/pgcr/16992590270"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/16992590270"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "incomplete",
+            "targetUrl": "https://raid.report/pgcr/16992576379"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/16992576379"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "incomplete",
+            "targetUrl": "https://raid.report/pgcr/16992567304"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/16992567304"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "incomplete",
+            "targetUrl": "https://raid.report/pgcr/16992544254"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/16992544254"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "incomplete",
+            "targetUrl": "https://raid.report/pgcr/16992536814"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/16992536814"
+          }
+        ]
+      },
+      {
+        "hash": 2032534090,
+        "highlights": [],
+        "completion": {
+          "incomplete": {
+            "count": 3,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 2032534090,
+            "highlights": ["flawless"],
+            "completionType": "incomplete",
+            "targetUrl": "https://dungeon.report/pgcr/16993422489"
+          },
+          {
+            "hash": 2032534090,
+            "highlights": ["flawless"],
+            "completionType": "incomplete",
+            "targetUrl": "https://dungeon.report/pgcr/16992430287"
+          },
+          {
+            "hash": 2032534090,
+            "highlights": ["flawless"],
+            "completionType": "incomplete",
+            "targetUrl": "https://dungeon.report/pgcr/16992424193"
+          }
+        ]
+      },
+      {
+        "hash": 3022541210,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 3022541210,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/16992390241"
+          }
+        ]
+      },
+      {
+        "hash": 747671496,
+        "highlights": [],
+        "completion": {
+          "incomplete": {
+            "count": 8,
+            "reasons": {}
+          },
+          "completed": {
+            "count": 8,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "incomplete",
+            "targetUrl": "https://raid.report/pgcr/16992353289"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/16992353289"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "incomplete",
+            "targetUrl": "https://raid.report/pgcr/16992326351"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/16992326351"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "incomplete",
+            "targetUrl": "https://raid.report/pgcr/16992317635"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/16992317635"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "incomplete",
+            "targetUrl": "https://raid.report/pgcr/16992306197"
+          },
+          {
+            "hash": 747671496,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/16992306197"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "incomplete",
+            "targetUrl": "https://raid.report/pgcr/16992287127"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/16992287127"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "incomplete",
+            "targetUrl": "https://raid.report/pgcr/16992276419"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/16992276419"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "incomplete",
+            "targetUrl": "https://raid.report/pgcr/16992269549"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/16992269549"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "incomplete",
+            "targetUrl": "https://raid.report/pgcr/16992257562"
+          },
+          {
+            "hash": 747671496,
+            "highlights": ["flawless"],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/16992257562"
+          }
+        ]
+      },
+      {
+        "hash": 123652462,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          },
+          "incomplete": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 123652462,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 123652462,
+            "highlights": [],
+            "completionType": "incomplete"
+          }
+        ]
+      },
+      {
+        "hash": 2823159265,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 2823159265,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16992135300"
+          }
+        ]
+      },
+      {
+        "hash": 313828469,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 313828469,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16992020890"
+          }
+        ]
+      },
+      {
+        "hash": 1077850348,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 6,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 1077850348,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16991912118"
+          },
+          {
+            "hash": 1077850348,
+            "highlights": ["flawless"],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16991865230"
+          },
+          {
+            "hash": 1077850348,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16991817660"
+          },
+          {
+            "hash": 1077850348,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16991775818"
+          },
+          {
+            "hash": 1077850348,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16991726283"
+          },
+          {
+            "hash": 1077850348,
+            "highlights": ["flawless"],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16991679350"
+          }
+        ]
+      },
+      {
+        "hash": 3193708584,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 3193708584,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 881664734,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 881664734,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 2698052455,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 2698052455,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 123652462,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          },
+          "incomplete": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 123652462,
+            "highlights": [],
+            "completionType": "completed"
+          },
+          {
+            "hash": 123652462,
+            "highlights": [],
+            "completionType": "incomplete"
+          }
+        ]
+      },
+      {
+        "hash": 2727361621,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 3,
+            "reasons": {}
+          },
+          "incomplete": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 2727361621,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16990580167"
+          },
+          {
+            "hash": 2727361621,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16990562218"
+          },
+          {
+            "hash": 2727361621,
+            "highlights": ["flawless"],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16990533420"
+          },
+          {
+            "hash": 2727361621,
+            "highlights": [],
+            "completionType": "incomplete",
+            "targetUrl": "https://dungeon.report/pgcr/16990509753"
+          }
+        ]
+      },
+      {
+        "hash": 1077850348,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 2,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 1077850348,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16990441808"
+          },
+          {
+            "hash": 1077850348,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16990304516"
+          }
+        ]
+      },
+      {
+        "hash": 762252622,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 762252622,
+            "highlights": [],
+            "completionType": "completed"
+          }
+        ]
+      },
+      {
+        "hash": 2727361621,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 2727361621,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16987463020"
+          }
+        ]
+      },
+      {
+        "hash": 2296818662,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 2296818662,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16987204207"
+          }
+        ]
+      },
+      {
+        "hash": 1262462921,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 1262462921,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://dungeon.report/pgcr/16987106896"
+          }
+        ]
+      },
+      {
+        "hash": 747671496,
+        "highlights": [],
+        "completion": {
+          "incomplete": {
+            "count": 1,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 747671496,
+            "highlights": [],
+            "completionType": "incomplete",
+            "targetUrl": "https://raid.report/pgcr/16986927348"
+          }
+        ]
+      },
+      {
+        "hash": 1044919065,
+        "highlights": [],
+        "completion": {
+          "completed": {
+            "count": 2,
+            "reasons": {}
+          },
+          "incomplete": {
+            "count": 2,
+            "reasons": {}
+          }
+        },
+        "activities": [
+          {
+            "hash": 1044919065,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/16986904365"
+          },
+          {
+            "hash": 1044919065,
+            "highlights": [],
+            "completionType": "incomplete",
+            "targetUrl": "https://raid.report/pgcr/16986796459"
+          },
+          {
+            "hash": 1044919065,
+            "highlights": [],
+            "completionType": "incomplete",
+            "targetUrl": "https://raid.report/pgcr/16986453821"
+          },
+          {
+            "hash": 1044919065,
+            "highlights": [],
+            "completionType": "completed",
+            "targetUrl": "https://raid.report/pgcr/16986356716"
+          }
+        ]
+      }
+    ]
+  }
+}

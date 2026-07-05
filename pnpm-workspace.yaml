@@ -1,0 +1,22 @@
+allowBuilds:
+  vue-demi: true
+
+catalog:
+  vite: npm:@voidzero-dev/vite-plus-core@latest
+  vite-plus: latest
+  vitest: 4.1.9
+
+onlyBuiltDependencies:
+  - vue-demi@0.14.10(vue@3.5.39(typescript@6.0.3))
+
+overrides:
+  vite: 'catalog:'
+  vitest: 'catalog:'
+
+peerDependencyRules:
+  allowAny:
+    - vite
+    - vitest
+  allowedVersions:
+    vite: '*'
+    vitest: '*'
