@@ -1,0 +1,47 @@
+name: 'Generate Localization'
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: 'checkout this repository'
+        uses: actions/checkout@v7
+      - name: 'checkout d2-localization-generator'
+        uses: actions/checkout@v7
+        with:
+          repository: 'Taskeren/d2-localization-generator'
+          path: 'i18n-generator'
+      - name: 'setup nodejs'
+        uses: actions/setup-node@v6.4.0
+        with:
+          node-version: '20'
+      - name: 'run generator'
+        run: |
+          cd i18n-generator || exit 1
+          npm install
+          npm run run
+        env:
+          BUNGIE_API_KEY: '${{ secrets.BUNGIE_API_TOKEN }}'
+      - name: 'copy generated'
+        run: |
+          mkdir -p ./src/generated/
+          cp -r i18n-generator/out/* ./src/generated/
+      - name: 'remove d2-localization-generator'
+        run: rm -rf i18n-generator
+      - name: 'open pull request'
+        uses: peter-evans/create-pull-request@v8.1.1
+        with:
+          token: '${{ secrets.GITHUB_TOKEN }}'
+          branch: 'bot/i18n'
+          commit-message: '[i18n] regenerate localization data'
+          reviewers: 'Taskeren'
+          delete-branch: true
