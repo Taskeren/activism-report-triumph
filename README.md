@@ -1,48 +1,24 @@
-# activism-report-triumph
+# Activism Report
 
-This template should help get you started developing with Vue 3 in Vite.
+[Start](https://activism.taske.ren/)
 
-## Recommended IDE Setup
+Activism Report is a Destiny 2 Activity History Tracker, designed to make a way to have a quick review of your past
+activities, also counting its amount and tagging the highlights.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Notice for Usage
 
-## Recommended Browser Setup
+Activism Report retrieves data from Bungie API, which **the API itself have 1-2 minutes latency.**
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+Activism Report fetches the "Character Activity Histories", so if you switched to other characters in a single
+instance of activity (which is someone else stays in the activity, not everybody go back to the orbit),
+**they are duplicated, where one might be _completed_ and others are _incomplete_.**
 
-## Type Support for `.vue` Imports in TS
+## API
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+The backend API is located in a separated worker project, [Activisme](https://github.com/Taskeren/activisme).
 
-## Customize configuration
+## Credits
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-pnpm dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-pnpm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
+- [Old Nuxt Version](https://github.com/Taskeren/d2-activism-report)
+- **ChenTL** helped a lot on discovering the Bungie API. He's nice!
+- **Bungie API** also gives the opportunity to this, although Bungie API is full of shit.
