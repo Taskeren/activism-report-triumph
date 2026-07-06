@@ -25,7 +25,7 @@ const setLanguage = (language: string) => {
 
 <template>
   <div class="min-h-screen flex flex-col bg-background text-foreground">
-    <header class="border-b px-6 py-4 flex items-center justify-between bg-card sticky top-0">
+    <header class="border-b px-6 py-4 flex items-center justify-between bg-card sticky top-0 z-50">
       <div class="font-bold text-lg">{{ t('navbar.title') }}</div>
       <nav class="flex gap-4 text-sm items-center">
         <RouterLink to="/" class="hover:underline">{{ t('navbar.homepage') }}</RouterLink>
