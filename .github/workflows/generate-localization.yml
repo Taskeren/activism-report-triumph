@@ -48,4 +48,5 @@ jobs:
           commit-message: '[i18n] regenerate localization data ${{ env.CURRENT_DATE }}'
           title: '[I18N] Localization Update ${{ env.CURRENT_DATE }}'
           reviewers: 'Taskeren'
+          labels: i18n
           delete-branch: true
