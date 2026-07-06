@@ -23,7 +23,7 @@ jobs:
       - name: 'Setup nodejs'
         uses: actions/setup-node@v6.4.0
         with:
-          node-version: '20'
+          node-version: '24'
       - name: 'Run generator'
         run: |
           cd i18n-generator || exit 1
