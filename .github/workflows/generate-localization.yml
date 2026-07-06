@@ -39,7 +39,7 @@ jobs:
         run: rm -rf i18n-generator
       - name: 'Get date information'
         id: date
-        run: echo "CURRENT_DATE=$(date + '%Y-%m-%d')" >> $GITHUB_ENV
+        run: echo "CURRENT_DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
       - name: 'Open pull request'
         uses: peter-evans/create-pull-request@v8.1.1
         with:
