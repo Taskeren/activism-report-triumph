@@ -32,7 +32,7 @@
   "devDependencies": {
     "@taskeren/bungie-api-ts": "^5.10.4",
     "@tsconfig/node24": "^24.0.4",
-    "@types/node": "^24.13.2",
+    "@types/node": "^26.0.0",
     "@vitejs/plugin-vue": "^6.0.7",
     "@vue/tsconfig": "^0.9.1",
     "jiti": "^2.7.0",
