@@ -21,7 +21,7 @@ jobs:
           repository: 'Taskeren/d2-localization-generator'
           path: 'i18n-generator'
       - name: 'Setup nodejs'
-        uses: actions/setup-node@v6.4.0
+        uses: actions/setup-node@v6.5.0
         with:
           node-version: '24'
       - name: 'Run generator'
